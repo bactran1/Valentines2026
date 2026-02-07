@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MP4 Video Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player-wrapper">
+    <!-- The <video> element.  -->
+    <!-- 1. width/height set via CSS (responsive). -->
+    <!-- 2. controls = show native play/pause/seek UI. -->
+    <!-- 3. autoplay = false (you can toggle). -->
+    <video id="videoPlayer" controls preload="metadata">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
